@@ -36,5 +36,5 @@ install(EXPORT asio-kcp
     FILE asio-kcp-targets.cmake
 )
 
-add_executable(asio-kcp-client src/tcp_over_kcp.cpp)
+add_executable(asio-kcp-client example/tcp_over_kcp.cpp)
 target_link_libraries(asio-kcp-client PRIVATE asio-kcp)
